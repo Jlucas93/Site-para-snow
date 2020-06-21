@@ -3,7 +3,7 @@ atividade 2
 
 
 **objetivo**
-treinar css
+Criar um site para a matéria fundamentos de Web design
 
 **justificativa**
 atividade pontuada
