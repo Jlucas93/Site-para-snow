@@ -3,13 +3,80 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="css-img/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
         <title>Atividade pontuada</title>
     </head>
 <!--Conent of the site-->
 
     <body>
-        
 
+        
+        <!--Text go here-->
+        <section class="navegation">
+            <h1>Um pouco sobre a raça Chow Chow</h1>
+        </section>
+
+        <section class="name">
+            <p><h1>Snow</h1></p>  
+        </section>
+
+        <section class="description">
+    
+            <p> Snow nasceu em 19 abril no ano de 2017, e é da raça chow chow, Chow-chow[Nota](em chinês: 獢獢 [Xiāo xiāo]) é uma raça de cães do tipo spitz originária da China.Em sua origem como cão versátil, a raça foi utilizada para várias funções, tais como cão de rinha, cão de guarda e cão de trenó.É conhecido por sua distinta língua “azul”.O chow-chow e o shar-pei são duas das poucas raças de cães que possuem língua azulada</p>
+
+            <h3>HISTÓRICO</h3>
+            <p> É uma raça antiga e de origem ainda desconhecida. Análises de DNA sugerem que estes cães tenham surgido originalmente na Mongólia ou Sibéria, e então foram levados para a China.
+            Na China estes cães são chamados de Songshi Quan (Pinyin: 鬆獅犬 [sōngshī quǎn]), que significa literalmente "cão-leão-empolado".
+            É suposto que sua imagem já tenha sido usada para decoração de objetos na Dinastia Han em 206 a.C e que durante a Dinastia Tang, um dos imperadores teve em seu canil dois mil e quinhentos exemplares destes caninos, e estes ficaram conhecidos como Tang Quan (cão da Dinastia Tang). Entre as especulações dos historiadores sobre a origem da raça, estão os cruzamentos entre molossos antigos e spitzs.</p>
+
+            <h3>Temperamento</h3>
+            <p>Versátil, esta raça foi animal de rinha, guarda, caça e puxador de trenó. São cães independentes, leais, reservados e silenciosos. Conservam temperamento de guarda e são territorialistas e dominantes. São cães de temperamento forte, por vezes considerados teimosos, e necessitam de um dono experiente. O adestramento é altamente recomendável. São conhecidos como “cão de um dono só”, e deixam bem claro qual o escolhido.</p>
+
+            <h3>Características</h3>
+            <p>O chow chow é conhecido pela sua aparência de “cão-leão” ou “cão-urso”.
+            Chow chow e shar-pei são as únicas raças de cães que não têm a língua rosa.                
+            O chow chow ocupa atualmente o 76° lugar no ranking de inteligência canina, entre as 79 colocações de acordo com o livro de Stanley Coren A Inteligência dos Cães de 1995.</p>
+        </section>
+
+        <section class="imagens">
+            <article> 
+                <img src="./img/4.JPG" alt="ERROR">
+                <figcaption>17/06</figcaption>
+            </article>
+            <article>
+
+                <img src="./img/2.JPG" alt="ERROR">
+                <figcaption>17/06</figcaption>
+            </article>
+            <article>
+
+                <img src="./img/3.JPG" alt="ERROR">
+                <figcaption>17/06</figcaption> 
+
+            </article>
+        </section>
+      
+
+
+        <script>
+            // Automatic Slideshow - change image every 3 seconds
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("parte1");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}
+              x[myIndex-1].style.display = "block";
+              setTimeout(carousel, 3000);
+            }
+            </script>
     </body>
+
+
 </html>
