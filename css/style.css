@@ -33,11 +33,12 @@ body{
 
     nav a{
         color: white;
+        transition: 0.5s;
     }
 
       nav a:hover{
-          background-color: white;
-          transition: 0.3s;
+          background-color: black;
+          transform: scale(2);
       }
 
       .name{
